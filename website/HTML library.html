@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📚HTML library📚</title> <!--name of website that appears on top -->
+</head>
+<body>
+<!--for screen-shot shortcut use [windows + shift + s] -->
+<!--for emoji shortcut use [windowboos + . ]  -->    
+<!--SIZE OF HEADING-->
+    <h1> heading </h1>
+    <h2>heading</h2>
+    <h3>heading</h3>
+    <h4>heading</h4>
+    <h5>heading</h5>
+    <h6>heading</h6>
+<!--LINE SPACING-->
+    ABCD <br> ABCD <br><br> ABCD
+<!--horizontal line-->
+    <hr> <!--by defaul size=1px-->
+    <hr size="7">
+    <hr size="7" noshade>
+<!--centre allignment-->    
+<center> ABCD </center>
+<!--ITALICS [emphasis]-->
+<em>ABCD</em>
+<!--BOLD-->
+<strong>ABCD</strong>
+<!--PARAGRAPH-->
+<p>PARAGRAPH 1</p>
+<P>PARAGRAPH 2</P>
+<!--BULLETS-->
+<ul type="square"> <!--BY DEFAULT ITS CIRCLE-->
+    <li>CLASS 10</li>
+    <li>CLASS 12</li>
+    <ul>
+        <li>A</li>
+        <li>B</li>
+    </ul>   
+</ul>
+<!--NUMBERING-->
+<ol reversed>
+    <li>A</li>
+    <li>B</li>
+</ol>
+
+<ol type="a" start="25"> <!--a for abc, A for ABC,[after 26 for alphabets its aa ab and so on] i for i ii iii, I for I II III, BY DEFAULT 1234 -->
+    <li>A</li>
+    <li>B</li>
+</ol>
+<!--INSERTING IMAGES-->
+ 
+<!--type 1 IMAGE FROM NET-->
+<img src="https://www.shutterstock.com/image-vector/url-shortener-use-scissors-address-260nw-2210269047.jpg" alt="REFFRENCE IMAGE"> 
+<!--src->source of image i.e. link, alt-> text discribing image if image fails to load-->
+<br>
+<!--type 2 IMAGE FROM YOUR PC [IMAGE SHOULD BE IN WEBSITE FOLDER]-->
+<img src="special coach image.png" alt="ganpati" height="250" width="150">
+<!--if image is in a folder in website folder then [name-of-folder/name-of-pic.png/jpg etc.]  -->
+<img src="image/new-download-removebg-preview 1.jpg" alt="">
+<br>
+<!--links [anchor tag]-->
+<h1>  <a href="https://www.facebook.com/LordVithal.org/">vithal rukhmai </a>  </h1>
+<P> <a href="learning my website.html">MY PERSONAL WEB</a> </p>  
+     <!--moving from one self created page to another via link like real websites [both should be in same file], without this its just a webpage-->
+
+<!--tables-->
+<table border="1" cellspacing="20">
+<thead>  <!--head of table by default bold-->
+<tr>
+    <th>alphabet</th>
+    <th>numbers</th>
+</tr>
+</thead>    
+
+<tbody>  <!--body of table, main content-->
+<tr>                       <!--1st horizontal rows in table-->
+    <td>ABC</td>           <!--data in table cell -->
+    <td>123</td>
+</tr>
+
+<tr>                       <!--2nd horizontal rows in table-->
+    <td>xyz</td>
+    <td>890</td>
+</tr>
+</tbody>
+</table>
+
+<br>
+
+<!--forms-->                                    <!--TYPES OF INPuT INCLUDES COLOR picker,DATE,CHECKBOX,PASSWORD,files,radio,range,email etc.-->
+<form action="mailto:email id to which info will be mailed">        <!--working of submit button-->
+    <label>your name</label>
+    <input type="text">                                             <!--FOR INPUT SPACE-->
+    <br>
+    <label>password</label>
+    <input type="password">
+    <br>
+    <label>do u want to sign up</label>
+    <input type="checkbox">
+    <br>
+    <input type="submit" value="NAME OF BUTTON">                    <!--FOR SUBMIT BUTTON-->
+</form>
+
+<!--text area-->
+<label for="">your message</label>
+<br>
+<textarea name="name" id="" cols="30" rows="10"></textarea>
+
+<!---->
+
+
+
+</body>
+</html>
